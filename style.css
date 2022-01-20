@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+
+table {
+    border-collapse: collapse;
+    border: 1.5px solid ;
+    font-family: Mochiy Pop P One;
+    width: 700px;
+    color: white;
+    text-transform: capitalize;
+}
+th, td {
+    text-align: left;
+    padding: 20px;
+    border: 2.5px solid white;
+}
+th {
+    text-align: left;  
+}
+thead {
+    background: #86006f;
+    color: white;
+    text-transform: capitalize;  
+}
+table:nth-of-type(odd){
+    background:#f37ecf;
+}
+tr:nth-of-type(2n){
+    background:#af5593;
+}
